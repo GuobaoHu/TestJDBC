@@ -30,6 +30,7 @@ public class TestTransaction {
 			
 			stm.executeBatch();
 			conn.commit();
+			conn.setAutoCommit(true);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
