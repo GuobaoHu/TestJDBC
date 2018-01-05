@@ -6,15 +6,15 @@ public class TestConnMysql {
 
 	public static void main(String[] args) {
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/mydata";
-		String user = "root";
-		String psw = "root";
+		String url = "jdbc:mysql://localhost:3306/mydata?user=root&password=root";
+		/*String user = "root";
+		String psw = "root";*/
 		Connection conn = null;
 		Statement stm = null;
 		ResultSet rs = null;
 		try {
 			Class.forName(driver);
-			conn = DriverManager.getConnection(url, user, psw);
+			conn = DriverManager.getConnection(url);
 			stm = conn.createStatement();
 			rs = stm.executeQuery("select * from dept");
 			while(rs.next()) {
