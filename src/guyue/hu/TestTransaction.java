@@ -1,7 +1,12 @@
 package guyue.hu;
 
 import java.sql.*;
-
+/**
+ * 需要记住！！！！！！！！！！！！！！！！
+ * 典型的事务处理过程
+ * @author hgb22613
+ *
+ */
 public class TestTransaction {
 
 	public static void main(String[] args) {

@@ -1,7 +1,12 @@
 package guyue.hu;
 
 import java.sql.*;
-
+/**
+ * 需要记住！！！！！！！！
+ * 典型的使用PreparedStatement，可以使用？当作参数占位符
+ * @author hgb22613
+ *
+ */
 public class TestPreStatement {
 
 	public static void main(String[] args) {

@@ -1,7 +1,12 @@
 package guyue.hu;
 
 import java.sql.*;
-
+/**
+ * 需要记住！！！！！！！！！！！！！！
+ * 典型的插入删除操作
+ * @author hgb22613
+ *
+ */
 public class TestDML {
 
 	public static void main(String[] args) {

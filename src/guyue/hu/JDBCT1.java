@@ -1,7 +1,12 @@
 package guyue.hu;
 
 import java.sql.*;
-
+/**
+ * 典型的查询,并用循环得到查询结果操作
+ * 需要记住！！！！！！！！！！！
+ * @author hgb22613
+ *
+ */
 public class JDBCT1 {
 
 	public static void main(String[] args) {
