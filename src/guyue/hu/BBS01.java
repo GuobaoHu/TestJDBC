@@ -51,9 +51,9 @@ public class BBS01 {
 			stm.setInt(1, pid);
 			rs = stm.executeQuery();
 			//Ëõ½ø
-			String prefix = "";
+			StringBuffer prefix = new StringBuffer("");
 			for(int i=0; i<count; i++) {
-				prefix = prefix + "    ";
+				prefix.append("    ");
 			}
 			
 			while(rs.next()) {
